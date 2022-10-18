@@ -41,7 +41,7 @@ Columns contain:
   - `0` - not active
 - type:
   - `real` - taken from the literature and the activity was tested experimentally
-  - `decoy` - putative inactive molecule were generated with [DUD-E web server](http://dude.docking.org/) [ref](https://pubs.acs.org/doi/full/10.1021/jm300687e)
+  - `decoy` - putative inactive molecule were generated with [DUD-E web server](http://dude.docking.org/)
 
 
 ## 1-rna_targets
