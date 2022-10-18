@@ -3,6 +3,8 @@ Structural Interaction Fingerprints and Machine Learning for predicting and expl
 
 Data accompanying the manuscript on SIFts- and ML-based methods in Virtual Screening for RNA binding ligands.
 
+[![Check Markdown links](https://github.com/filipsPL/fingernat-ml/actions/workflows/action-links.yml/badge.svg)](https://github.com/filipsPL/fingernat-ml/actions/workflows/action-links.yml)
+
 - [Repository content](#repository-content)
   - [0-activity_datasets](#0-activity_datasets)
   - [1-rna_targets](#1-rna_targets)
