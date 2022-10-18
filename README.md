@@ -21,17 +21,17 @@ Datasets with active and inactive ligands for five RNA targets. Each sub dir con
 
 | molecule structure                  | name                     | activity | type  |
 | :---------------------------------- | :----------------------- | :------- | :---- |
-| c1[nH]c2c(n1)c(ncn2)N               | adenine                  | 1        | real  |
-| c1[nH]c2c(n1)c(nc(n2)N)N            | 2,6-diaminopurine        | 1        | real  |
-| c1c([nH+]c(nc1N)N)N                 | 2,4,6-triaminopyrimidine | 1        | real  |
-| c1c2c([nH]cn2)nc(n1)N               | 2-aminopurine            | 1        | real  |
-| c1[nH]c2c(=O)[nH]c(nc2n1)N          | guanine                  | 1        | real  |
-| c1c2c([nH]cn2)ncn1                  | purine                   | 1        | real  |
-| CCc1nc(c(o1)NN)C#N                  | P12618448                | 0        | decoy |
-| C[C@@H]1[C@H]([C@H]([C@@H](O1)O)O)O | P20855218                | 0        | decoy |
-| C[C@@H](C1CC1)N(C(=O)N)O            | P21190230                | 0        | decoy |
-| Cc1c(c(c(o1)C)C(=O)[O-])C[NH3+]     | P23843064                | 0        | decoy |
-|                                     |                          |          |       |
+| `c1[nH]c2c(n1)c(ncn2)N              ` | adenine                  | 1        | real  |
+| `c1[nH]c2c(n1)c(nc(n2)N)N           ` | 2,6-diaminopurine        | 1        | real  |
+| `c1c([nH+]c(nc1N)N)N                ` | 2,4,6-triaminopyrimidine | 1        | real  |
+| `c1c2c([nH]cn2)nc(n1)N              ` | 2-aminopurine            | 1        | real  |
+| `c1[nH]c2c(=O)[nH]c(nc2n1)N         ` | guanine                  | 1        | real  |
+| `c1c2c([nH]cn2)ncn1                 ` | purine                   | 1        | real  |
+| `CCc1nc(c(o1)NN)C#N                 ` | P12618448                | 0        | decoy |
+| `C[C@@H]1[C@H]([C@H]([C@@H](O1)O)O)O` | P20855218                | 0        | decoy |
+| `C[C@@H](C1CC1)N(C(=O)N)O           ` | P21190230                | 0        | decoy |
+| `Cc1c(c(c(o1)C)C(=O)[O-])C[NH3+]    ` | P23843064                | 0        | decoy |
+
 
 Columns contain:
 - molecule structure: SMILES encoded structure
@@ -41,7 +41,7 @@ Columns contain:
   - `0` - not active
 - type:
   - `real` - taken from the literature and the activity was tested experimentally
-  - `decoy` - putative inactive molecule were generated with [DUD-E web server](http://dude.docking.org/) [ref](http://pubs.acs.org/doi/abs/10.1021/jm300687e)
+  - `decoy` - putative inactive molecule were generated with [DUD-E web server](http://dude.docking.org/) [ref](https://pubs.acs.org/doi/full/10.1021/jm300687e)
 
 
 ## 1-rna_targets
