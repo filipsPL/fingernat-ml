@@ -5,11 +5,12 @@ Data accompanying the manuscript on SIFts- and ML-based methods in Virtual Scree
 
 ![Check Markdown links](https://github.com/filipsPL/fingernat-ml/actions/workflows/action-links.yml/badge.svg) <!-- markdown-link-check-disable-line -->
 
+
 - [Repository content](#repository-content)
-  - [0-activity_datasets](#0-activity_datasets)
-  - [1-rna_targets](#1-rna_targets)
-  - [1-rna_targets-dockprep](#1-rna_targets-dockprep)
-  - [2-docking_poses](#2-docking_poses)
+  - [0-activity\_datasets](#0-activity_datasets)
+  - [1-rna\_targets](#1-rna_targets)
+  - [1-rna\_targets-dockprep](#1-rna_targets-dockprep)
+  - [2-docking\_poses](#2-docking_poses)
   - [3-rescoring](#3-rescoring)
   - [4-SIFts+activity](#4-siftsactivity)
 
