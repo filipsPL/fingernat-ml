@@ -1,0 +1,51 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Structural Interaction Fingerprints and Machine Learning for predicting and explaining binding of small molecule ligands to RNA - benchmark dataset.
+message: A benchmark dataset based on ligands with known or putative binding activity toward six RNA targets.
+type: dataset
+authors:
+  - given-names: "Natalia A. Szulc "
+    email: nszulc@iimcb.gov.pl
+    affiliation: >-
+      International Institute of Molecular and Cell
+      Biology in Warsaw, Warsaw, Poland
+    orcid: "https://orcid.org/0000-0002-2991-3634"
+  - given-names: Zuzanna Mackiewicz
+    email: zmackiewicz@iimcb.gov.pl
+    affiliation: >-
+      International Institute of Molecular and Cell
+      Biology in Warsaw, Warsaw, Poland
+    orcid: "https://orcid.org/0000-0003-1654-9025"
+  - orcid: "https://orcid.org/0000-0002-6633-165X"
+    given-names: Janusz M. Bujnicki
+    email: janusz@iimcb.gov.pl
+    affiliation: >-
+      International Institute of Molecular and Cell
+      Biology in Warsaw, Warsaw, Poland
+  - orcid: "https://orcid.org/0000-0001-5758-9416"
+    given-names: Filip Stefaniak
+    affiliation: >-
+      International Institute of Molecular and Cell
+      Biology in Warsaw, Warsaw, Poland
+    email: fstefaniak@iimcb.gov.pl
+identifiers:
+  - type: url
+    value: >-
+      https://github.com/filipspl/fingernat-ml/
+    description: GitHub repository
+repository-code: "https://github.com/filipspl/fingernat-ml/"
+url: "https://github.com/filipspl/fingernat-ml/"
+abstract: >-
+  Ribonucleic acids (RNA) play crucial roles in living organisms as they are involved in key processes necessary for proper cell functioning. Some RNA molecules, such as bacterial ribosomes and precursor messenger RNA, are targets of small molecule drugs, while others, e.g., bacterial riboswitches or viral RNA motifs are considered as potential therapeutic targets. Thus, the continuous discovery of new functional RNA increases the demand for developing compounds targeting them and for methods for analyzing RNA—small molecule interactions. We recently developed fingeRNAt - a software for detecting non-covalent bonds formed within complexes of nucleic acids with different types of ligands. The program detects several non-covalent interactions, such as hydrogen and halogen bonds, ionic, Pi, inorganic ion- and water-mediated, lipophilic interactions, and encodes them as computational-friendly Structural Interaction Fingerprint (SIFt). Here we present the application of SIFts accompanied by machine learning methods for binding prediction of small molecules to RNA targets. We show that SIFt-based models outperform the classic, general-purpose scoring functions in virtual screening. We discuss the aid offered by Explainable Artificial Intelligence in the analysis of the binding prediction models, elucidating the decision-making process, and deciphering molecular recognition processes.
+keywords:
+  - rna
+  - small molecules
+  - non-covalent interactions
+  - interaction fingerprint
+  - python
+  - drug design
+  - machine learning
+license: CC-BY-4.0
