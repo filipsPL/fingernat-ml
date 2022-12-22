@@ -1,4 +1,4 @@
-Structural Interaction Fingerprints and Machine Learning for predicting and explaining the activity of RNA binding ligands <!-- omit in toc -->
+Structural Interaction Fingerprints and Machine Learning for predicting and explaining binding of small molecule ligands to RNA <!-- omit in toc -->
 =============
 
 Data accompanying the manuscript on SIFts- and ML-based methods in Virtual Screening for RNA binding ligands.
