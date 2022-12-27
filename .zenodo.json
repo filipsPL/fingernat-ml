@@ -19,13 +19,23 @@
   "creators": [
     {
       "affiliation": "International Institute of Molecular and Cell Biology in Warsaw",
-      "name": "Filip Stefaniak",
-      "orcid": "0000-0001-5758-9416"
+      "name": "Natalia A. Szulc",
+      "orcid": "0000-0002-2991-3634"
     },
     {
       "affiliation": "International Institute of Molecular and Cell Biology in Warsaw",
-      "name": "Natalia A. Szulc",
-      "orcid": "0000-0002-2991-3634"
+      "name": "Zuzanna Mackiewicz",
+      "orcid": "0000-0003-1654-9025"
+    },
+    {
+      "affiliation": "International Institute of Molecular and Cell Biology in Warsaw",
+      "name": "Janusz M. Bujnicki",
+      "orcid": "0000-0002-6633-165X"
+    },
+    {
+      "affiliation": "International Institute of Molecular and Cell Biology in Warsaw",
+      "name": "Filip Stefaniak",
+      "orcid": "0000-0001-5758-9416"
     }
   ],
   "access_right": "open"
