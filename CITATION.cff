@@ -32,6 +32,9 @@ authors:
       Biology in Warsaw, Warsaw, Poland
     email: fstefaniak@iimcb.gov.pl
 identifiers:
+  - type: doi
+    value: 10.5281/zenodo.7486183
+    description: Zenodo repository
   - type: url
     value: >-
       https://github.com/filipspl/fingernat-ml/
@@ -49,6 +52,4 @@ keywords:
   - drug design
   - machine learning
 license: CC0-1.0
-identifiers:
-  - type: doi
-    value: 10.5281/zenodo.7486183
+
