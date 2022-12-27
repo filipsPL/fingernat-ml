@@ -166,3 +166,7 @@ Each joined SIFts is available in six variants:
 │   │           ├── withZeros_basicInteractions.csv.gz
 │   │           └── withZeros_basicInteractionsNoLipo.csv.gz
 ```
+
+-------
+
+> This research was funded in part by the National Science Centre in Poland (grant number 2020/39/B/NZ2/03127 to F.S.).
