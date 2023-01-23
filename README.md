@@ -1,7 +1,7 @@
 Structural Interaction Fingerprints and Machine Learning for predicting and explaining binding of small molecule ligands to RNA <!-- omit in toc -->
 =============
 
-Data accompanying the manuscript on SIFts- and ML-based methods in Virtual Screening for RNA binding ligands.
+Data accompanying the manuscript on SIFts- and ML-based methods in Virtual Screening for RNA binding ligands - <b>Structural Interaction Fingerprints and Machine Learning for predicting and explaining binding of small molecule ligands to RNA</b>, available [here](https://www.biorxiv.org/content/10.1101/2023.01.11.523582v1?rss=1).
 
 ![Check Markdown links](https://github.com/filipsPL/fingernat-ml/actions/workflows/action-links.yml/badge.svg) <!-- markdown-link-check-disable-line -->
 [![cffconvert](https://github.com/filipsPL/fingernat-ml/actions/workflows/cffconvert.yml/badge.svg)](https://github.com/filipsPL/fingernat-ml/actions/workflows/cffconvert.yml) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7486184.svg)](https://doi.org/10.5281/zenodo.7486184) <!-- markdown-link-check-disable-line -->
@@ -13,6 +13,9 @@ Data accompanying the manuscript on SIFts- and ML-based methods in Virtual Scree
   - [2-docking\_poses](#2-docking_poses)
   - [3-rescoring](#3-rescoring)
   - [4-SIFts+activity](#4-siftsactivity)
+- [Feedback, issues, and questions](#feedback-issues-and-questions)
+- [How to cite](#how-to-cite)
+- [Funding](#funding)
 
 # Repository content
 
@@ -167,6 +170,21 @@ Each joined SIFts is available in six variants:
 │   │           └── withZeros_basicInteractionsNoLipo.csv.gz
 ```
 
--------
+# Feedback, issues, and questions
 
-> This research was funded in part by the National Science Centre in Poland (grant number 2020/39/B/NZ2/03127 to F.S.).
+We welcome any feedback, please send an email to Filip Stefaniak ![](https://img.shields.io/badge/fstefaniak-%40iimcb.gov.pl-red) or Natalia Szulc ![](https://img.shields.io/badge/nszulc-%40iimcb.gov.pl-brightgreen)
+
+# How to cite
+
+If you used codes or datasets from this repository, please cite:
+
+<b>Structural Interaction Fingerprints and Machine Learning for predicting and explaining binding of small molecule ligands to RNA</b>
+Natalia A. Szulc, Zuzanna Mackiewicz, Janusz M. Bujnicki, Filip Stefaniak
+
+<i>bioRxiv</i>
+
+doi: [10.1101/2023.01.11.523582](https://doi.org/10.1101/2023.01.11.523582)
+
+# Funding
+
+This research was funded in part by the National Science Centre in Poland (grant number 2020/39/B/NZ2/03127 to Filip Stefaniak).
