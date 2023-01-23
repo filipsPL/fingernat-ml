@@ -176,7 +176,7 @@ We welcome any feedback, please send an email to Filip Stefaniak ![](https://img
 
 # How to cite
 
-If you used codes or datasets from this repository, please cite:
+If you used the datasets from this repository, please cite:
 
 <b>Structural Interaction Fingerprints and Machine Learning for predicting and explaining binding of small molecule ligands to RNA</b>
 Natalia A. Szulc, Zuzanna Mackiewicz, Janusz M. Bujnicki, Filip Stefaniak
