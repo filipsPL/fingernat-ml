@@ -1,0 +1,193 @@
+name;model_type;AUROC;train_time;target;Fingerprint type;poses;interactions;cvtype;preprocessing;postprocessing
+Baseline;Baseline;0.4824099722991689;2.76;Adenine;FULL;3 top poses;Basic+extended;3cv;None;None
+Baseline;Baseline;0.4833333333333334;2.9;GuanineC74U;FULL;3 top poses;Basic+extended;3cv;None;None
+Baseline;Baseline;0.4833333333333334;4.29;FMN;FULL;3 top poses;Basic+extended;3cv;None;None
+Baseline;Baseline;0.4997744700045106;2.3;HIV-1 TAR;FULL;3 top poses;Basic+extended;3cv;None;None
+Baseline;Baseline;0.4997792494481236;4.85;TPP;FULL;3 top poses;Basic+extended;3cv;None;None
+Baseline;Baseline;0.4997792494481236;3.09;Guanine;FULL;3 top poses;Basic+extended;3cv;None;None
+DecisionTree;Decision Tree;0.6373666666666667;4.2;FMN;FULL;3 top poses;Basic+extended;3cv;None;None
+DecisionTree;Decision Tree;0.6980132450331126;3.49;Guanine;FULL;3 top poses;Basic+extended;3cv;None;None
+DecisionTree;Decision Tree;0.7036423094271539;2.85;HIV-1 TAR;FULL;3 top poses;Basic+extended;3cv;None;None
+Xgboost, SelectedFeatures;Xgboost;0.7603185595567867;3.46;Adenine;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;None
+Xgboost, SelectedFeatures;Xgboost;0.7606540084388186;3.05;GuanineC74U;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;None
+Xgboost;Xgboost;0.7652601969057665;3.6;GuanineC74U;FULL;3 top poses;Basic+extended;3cv;None;None
+Xgboost, Stacked;Xgboost;0.7653739612188365;4.05;Adenine;FULL;3 top poses;Basic+extended;3cv;None;Stacked
+CatBoost, SelectedFeatures, Stacked;CatBoost;0.7686400541271988;5.46;HIV-1 TAR;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;Stacked
+Xgboost, SelectedFeatures, Stacked;Xgboost;0.7849797023004059;4.92;HIV-1 TAR;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;Stacked
+CatBoost;CatBoost;0.7923996391520073;9.77;HIV-1 TAR;FULL;3 top poses;Basic+extended;3cv;None;None
+Xgboost, Stacked;Xgboost;0.7927215189873418;5.58;GuanineC74U;FULL;3 top poses;Basic+extended;3cv;None;Stacked
+Xgboost;Xgboost;0.7981957600360848;3.89;HIV-1 TAR;FULL;3 top poses;Basic+extended;3cv;None;None
+Xgboost, SelectedFeatures, Stacked;Xgboost;0.8082278481012658;4.95;GuanineC74U;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;Stacked
+LightGBM, Stacked;LightGBM;0.825935949481281;6.36;HIV-1 TAR;FULL;3 top poses;Basic+extended;3cv;None;Stacked
+ExtraTrees, Stacked;Extra Trees;0.826364456472711;11.84;HIV-1 TAR;FULL;3 top poses;Basic+extended;3cv;None;Stacked
+RandomForest;Random Forest;0.829679747406405;9.86;HIV-1 TAR;FULL;3 top poses;Basic+extended;3cv;None;None
+Xgboost, SelectedFeatures;Xgboost;0.8360058637798826;4.07;HIV-1 TAR;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;None
+ExtraTrees;Extra Trees;0.8419034731619306;7.82;HIV-1 TAR;FULL;3 top poses;Basic+extended;3cv;None;None
+Xgboost, Stacked;Xgboost;0.8460193955796123;5.75;HIV-1 TAR;FULL;3 top poses;Basic+extended;3cv;None;Stacked
+LightGBM, SelectedFeatures, Stacked;LightGBM;0.8521989174560217;4.33;HIV-1 TAR;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;Stacked
+RandomForest, SelectedFeatures;Random Forest;0.8579333333333334;5.65;FMN;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;None
+CatBoost, Stacked;CatBoost;0.8620884077582318;11.43;HIV-1 TAR;FULL;3 top poses;Basic+extended;3cv;None;Stacked
+DecisionTree;Decision Tree;0.8715562913907287;5.12;TPP;FULL;3 top poses;Basic+extended;3cv;None;None
+RandomForest, Stacked;Random Forest;0.8740753270184934;6.71;HIV-1 TAR;FULL;3 top poses;Basic+extended;3cv;None;Stacked
+ExtraTrees, SelectedFeatures;Extra Trees;0.8762065854758683;5.85;HIV-1 TAR;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;None
+RandomForest, SelectedFeatures;Random Forest;0.8864005412719892;6.72;HIV-1 TAR;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;None
+CatBoost, SelectedFeatures;CatBoost;0.8927266576454669;4.17;HIV-1 TAR;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;None
+Xgboost, Stacked;Xgboost;0.8948;6.06;FMN;FULL;3 top poses;Basic+extended;3cv;None;Stacked
+Xgboost;Xgboost;0.8954746136865342;6.46;TPP;FULL;3 top poses;Basic+extended;3cv;None;None
+LightGBM;LightGBM;0.8988836265223275;4.16;HIV-1 TAR;FULL;3 top poses;Basic+extended;3cv;None;None
+Xgboost;Xgboost;0.9001333333333333;5.47;FMN;FULL;3 top poses;Basic+extended;3cv;None;None
+Xgboost, SelectedFeatures;Xgboost;0.9039333333333333;4.08;FMN;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;None
+ExtraTrees, SelectedFeatures, Stacked;Extra Trees;0.9056833558863328;6.73;HIV-1 TAR;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;Stacked
+RandomForest, SelectedFeatures, Stacked;Random Forest;0.9148398737032026;6.06;HIV-1 TAR;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;Stacked
+LightGBM, SelectedFeatures;LightGBM;0.917850699142986;4.4;HIV-1 TAR;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;None
+CatBoost, SelectedFeatures, Stacked;CatBoost;0.9182;4.72;FMN;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;Stacked
+Xgboost, SelectedFeatures;Xgboost;0.91841059602649;5.05;TPP;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;None
+Xgboost, SelectedFeatures, Stacked;Xgboost;0.9273333333333336;4.15;FMN;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;Stacked
+RandomForest;Random Forest;0.9327;11.05;FMN;FULL;3 top poses;Basic+extended;3cv;None;None
+CatBoost, Stacked;CatBoost;0.9346666666666668;11.47;FMN;FULL;3 top poses;Basic+extended;3cv;None;Stacked
+Xgboost, SelectedFeatures;Xgboost;0.9383222958057396;3.69;Guanine;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;None
+RandomForest, Stacked;Random Forest;0.9384349030470914;7.48;Adenine;FULL;3 top poses;Basic+extended;3cv;None;Stacked
+RandomForest, SelectedFeatures, Stacked;Random Forest;0.93898891966759;6.44;Adenine;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;Stacked
+Xgboost, Stacked;Xgboost;0.941523178807947;5.16;Guanine;FULL;3 top poses;Basic+extended;3cv;None;Stacked
+RandomForest, SelectedFeatures;Random Forest;0.9447368421052632;6.28;Adenine;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;None
+CatBoost, SelectedFeatures;CatBoost;0.9542333333333334;4.67;FMN;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;None
+LightGBM, SelectedFeatures;LightGBM;0.9556;4.39;FMN;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;None
+Xgboost;Xgboost;0.9571633554083886;5.28;Guanine;FULL;3 top poses;Basic+extended;3cv;None;None
+LightGBM, SelectedFeatures, Stacked;LightGBM;0.9579333333333332;4.41;FMN;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;Stacked
+LightGBM, SelectedFeatures;LightGBM;0.9589403973509936;4.43;Guanine;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;None
+Xgboost, Stacked;Xgboost;0.960242825607064;8.37;TPP;FULL;3 top poses;Basic+extended;3cv;None;Stacked
+DecisionTree;Decision Tree;0.9614978902953586;2.67;GuanineC74U;FULL;3 top poses;Basic+extended;3cv;None;None
+DecisionTree;Decision Tree;0.9628808864265928;2.97;Adenine;FULL;3 top poses;Basic+extended;3cv;None;None
+ExtraTrees, SelectedFeatures;Extra Trees;0.9632666666666668;5.36;FMN;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;None
+Xgboost, SelectedFeatures, Stacked;Xgboost;0.9704986149584488;3.37;Adenine;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;Stacked
+LightGBM;LightGBM;0.9716004415011036;7.01;TPP;FULL;3 top poses;Basic+extended;3cv;None;None
+Xgboost, SelectedFeatures, Stacked;Xgboost;0.9726490066225164;3.92;Guanine;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;Stacked
+LightGBM, SelectedFeatures, Stacked;LightGBM;0.973421633554084;3.87;Guanine;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;Stacked
+RandomForest, SelectedFeatures, Stacked;Random Forest;0.9738631346578368;6.61;Guanine;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;Stacked
+RandomForest;Random Forest;0.974168975069252;6.15;Adenine;FULL;3 top poses;Basic+extended;3cv;None;None
+RandomForest, SelectedFeatures;Random Forest;0.9749116997792496;6.13;Guanine;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;None
+ExtraTrees;Extra Trees;0.975121412803532;12.43;TPP;FULL;3 top poses;Basic+extended;3cv;None;None
+LightGBM;LightGBM;0.9757383966244728;4.59;GuanineC74U;FULL;3 top poses;Basic+extended;3cv;None;None
+LightGBM, Stacked;LightGBM;0.9762666666666664;6.31;FMN;FULL;3 top poses;Basic+extended;3cv;None;Stacked
+RandomForest, SelectedFeatures;Random Forest;0.9767991169977924;6.93;TPP;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;None
+RandomForest;Random Forest;0.9772406181015452;11.59;TPP;FULL;3 top poses;Basic+extended;3cv;None;None
+CatBoost;CatBoost;0.977262693156733;11.51;TPP;FULL;3 top poses;Basic+extended;3cv;None;None
+CatBoost, Stacked;CatBoost;0.9802207505518764;10.4;TPP;FULL;3 top poses;Basic+extended;3cv;None;Stacked
+ExtraTrees, SelectedFeatures;Extra Trees;0.9803863134657838;7.13;TPP;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;None
+RandomForest, Stacked;Random Forest;0.9809333333333332;10.59;FMN;FULL;3 top poses;Basic+extended;3cv;None;Stacked
+LightGBM, Stacked;LightGBM;0.980971302428256;6.65;TPP;FULL;3 top poses;Basic+extended;3cv;None;Stacked
+CatBoost, Stacked;CatBoost;0.9812236286919832;8.09;GuanineC74U;FULL;3 top poses;Basic+extended;3cv;None;Stacked
+LightGBM, SelectedFeatures;LightGBM;0.9812582781456952;6.94;TPP;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;None
+RandomForest, SelectedFeatures, Stacked;Random Forest;0.9817;6.88;FMN;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;Stacked
+LightGBM;LightGBM;0.9825333333333334;6.93;FMN;FULL;3 top poses;Basic+extended;3cv;None;None
+CatBoost, SelectedFeatures;CatBoost;0.9826490066225164;4.17;Guanine;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;None
+RandomForest, Stacked;Random Forest;0.9829028697571744;9.2;Guanine;FULL;3 top poses;Basic+extended;3cv;None;Stacked
+ExtraTrees, Stacked;Extra Trees;0.9832;9.92;FMN;FULL;3 top poses;Basic+extended;3cv;None;Stacked
+Xgboost, SelectedFeatures, Stacked;Xgboost;0.9833885209713024;5.38;TPP;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;Stacked
+LightGBM, SelectedFeatures, Stacked;LightGBM;0.9866004415011038;5.47;TPP;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;Stacked
+LightGBM, SelectedFeatures;LightGBM;0.9871883656509696;3.6;Adenine;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;None
+LightGBM;LightGBM;0.9875055187637968;5.64;Guanine;FULL;3 top poses;Basic+extended;3cv;None;None
+ExtraTrees;Extra Trees;0.9876;8.77;FMN;FULL;3 top poses;Basic+extended;3cv;None;None
+LightGBM, SelectedFeatures;LightGBM;0.9878340365682138;3.69;GuanineC74U;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;None
+RandomForest, Stacked;Random Forest;0.988476821192053;13.66;TPP;FULL;3 top poses;Basic+extended;3cv;None;Stacked
+CatBoost, SelectedFeatures, Stacked;CatBoost;0.9886092715231788;8.91;TPP;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;Stacked
+ExtraTrees, SelectedFeatures;Extra Trees;0.9888504155124654;4.66;Adenine;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;None
+CatBoost, SelectedFeatures, Stacked;CatBoost;0.9888741721854304;5.6;Guanine;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;Stacked
+CatBoost, Stacked;CatBoost;0.9890949227373068;11.48;Guanine;FULL;3 top poses;Basic+extended;3cv;None;Stacked
+ExtraTrees, Stacked;Extra Trees;0.9893598233995584;10.47;TPP;FULL;3 top poses;Basic+extended;3cv;None;Stacked
+CatBoost;CatBoost;0.9896026490066224;12.69;Guanine;FULL;3 top poses;Basic+extended;3cv;None;None
+ExtraTrees;Extra Trees;0.9902317880794702;10.84;Guanine;FULL;3 top poses;Basic+extended;3cv;None;None
+CatBoost, SelectedFeatures;CatBoost;0.9902649006622516;7.56;TPP;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;None
+RandomForest;Random Forest;0.9907064017660044;9.35;Guanine;FULL;3 top poses;Basic+extended;3cv;None;None
+CatBoost, SelectedFeatures, Stacked;CatBoost;0.9908587257617728;4.28;Adenine;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;Stacked
+RandomForest, SelectedFeatures, Stacked;Random Forest;0.9911920529801324;9.17;TPP;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;Stacked
+ExtraTrees, SelectedFeatures, Stacked;Extra Trees;0.9913686534216336;8.97;TPP;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;Stacked
+ExtraTrees, Stacked;Extra Trees;0.991551246537396;8.03;Adenine;FULL;3 top poses;Basic+extended;3cv;None;Stacked
+LightGBM, Stacked;LightGBM;0.9915611814345991;4.24;GuanineC74U;FULL;3 top poses;Basic+extended;3cv;None;Stacked
+ExtraTrees, SelectedFeatures, Stacked;Extra Trees;0.9917590027700832;5.53;Adenine;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;Stacked
+RandomForest, SelectedFeatures, Stacked;Random Forest;0.9921940928270042;5.48;GuanineC74U;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;Stacked
+LightGBM, Stacked;LightGBM;0.9923130193905816;4.29;Adenine;FULL;3 top poses;Basic+extended;3cv;None;Stacked
+ExtraTrees, SelectedFeatures, Stacked;Extra Trees;0.9926333333333331;5.46;FMN;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;Stacked
+LightGBM, SelectedFeatures, Stacked;LightGBM;0.9927285318559558;3.59;Adenine;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;Stacked
+CatBoost, SelectedFeatures;CatBoost;0.9931082981715892;3.59;GuanineC74U;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;None
+ExtraTrees, SelectedFeatures;Extra Trees;0.9932671081677704;4.68;Guanine;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;None
+LightGBM;LightGBM;0.9933518005540166;3.71;Adenine;FULL;3 top poses;Basic+extended;3cv;None;None
+RandomForest, Stacked;Random Forest;0.9935302390998596;7.1;GuanineC74U;FULL;3 top poses;Basic+extended;3cv;None;Stacked
+LightGBM, Stacked;LightGBM;0.9937086092715232;5.73;Guanine;FULL;3 top poses;Basic+extended;3cv;None;Stacked
+ExtraTrees, SelectedFeatures, Stacked;Extra Trees;0.9942334739803096;6.52;GuanineC74U;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;Stacked
+LightGBM, SelectedFeatures, Stacked;LightGBM;0.9944444444444444;4.67;GuanineC74U;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;Stacked
+CatBoost, SelectedFeatures;CatBoost;0.9945983379501384;3.39;Adenine;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;None
+ExtraTrees, Stacked;Extra Trees;0.994690576652602;8.11;GuanineC74U;FULL;3 top poses;Basic+extended;3cv;None;Stacked
+CatBoost;CatBoost;0.9947368421052633;6.72;Adenine;FULL;3 top poses;Basic+extended;3cv;None;None
+RandomForest;Random Forest;0.9948663853727144;6.49;GuanineC74U;FULL;3 top poses;Basic+extended;3cv;None;None
+ExtraTrees, Stacked;Extra Trees;0.9953311258278146;8.93;Guanine;FULL;3 top poses;Basic+extended;3cv;None;Stacked
+CatBoost;CatBoost;0.9954666666666668;11.33;FMN;FULL;3 top poses;Basic+extended;3cv;None;None
+ExtraTrees, SelectedFeatures, Stacked;Extra Trees;0.9957615894039736;5.94;Guanine;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;Stacked
+RandomForest, SelectedFeatures;Random Forest;0.9962728551336146;4.43;GuanineC74U;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;None
+ExtraTrees, SelectedFeatures;Extra Trees;0.9962728551336146;6.9;GuanineC74U;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;None
+CatBoost;CatBoost;0.9963431786216596;7.55;GuanineC74U;FULL;3 top poses;Basic+extended;3cv;None;None
+Xgboost;Xgboost;0.996814404432133;3.72;Adenine;FULL;3 top poses;Basic+extended;3cv;None;None
+ExtraTrees;Extra Trees;0.9975386779184248;6.97;GuanineC74U;FULL;3 top poses;Basic+extended;3cv;None;None
+CatBoost, SelectedFeatures, Stacked;CatBoost;0.9976793248945148;4.05;GuanineC74U;FULL;3 top poses;Basic+extended;3cv;SelectedFeatures;Stacked
+ExtraTrees;Extra Trees;0.9984072022160664;7.46;Adenine;FULL;3 top poses;Basic+extended;3cv;None;None
+CatBoost, Stacked;CatBoost;0.999168975069252;7.2;Adenine;FULL;3 top poses;Basic+extended;3cv;None;Stacked
+Naive Bayes;;0.5;;FMN;FULL;3 top poses;Basic+extended;3cv;None;None
+Logistic Regression;;0.8927555555555554;;FMN;FULL;3 top poses;Basic+extended;3cv;None;None
+IBk (k=3);;0.8402666666666667;;FMN;FULL;3 top poses;Basic+extended;3cv;None;None
+IBk (k=5);;0.8489333333333334;;FMN;FULL;3 top poses;Basic+extended;3cv;None;None
+K*;;0.9709333333333332;;FMN;FULL;3 top poses;Basic+extended;3cv;None;None
+Decision Table;;0.5603111111111111;;FMN;FULL;3 top poses;Basic+extended;3cv;None;None
+J48;;0.6093333333333333;;FMN;FULL;3 top poses;Basic+extended;3cv;None;None
+Random Tree;;0.5346666666666667;;FMN;FULL;3 top poses;Basic+extended;3cv;None;None
+Naive Bayes;;0.5;;HIV-1 TAR;FULL;3 top poses;Basic+extended;3cv;None;None
+Logistic Regression;;0.6839986666666666;;HIV-1 TAR;FULL;3 top poses;Basic+extended;3cv;None;None
+IBk (k=3);;0.6848273333333332;;HIV-1 TAR;FULL;3 top poses;Basic+extended;3cv;None;None
+IBk (k=5);;0.7345091111111112;;HIV-1 TAR;FULL;3 top poses;Basic+extended;3cv;None;None
+K*;;0.8428984444444445;;HIV-1 TAR;FULL;3 top poses;Basic+extended;3cv;None;None
+Decision Table;;0.5516672222222222;;HIV-1 TAR;FULL;3 top poses;Basic+extended;3cv;None;None
+J48;;0.5580622222222222;;HIV-1 TAR;FULL;3 top poses;Basic+extended;3cv;None;None
+Random Tree;;0.5147792222222222;;HIV-1 TAR;FULL;3 top poses;Basic+extended;3cv;None;None
+Naive Bayes;;0.5;;TPP;FULL;3 top poses;Basic+extended;3cv;None;None
+Logistic Regression;;0.822722111111111;;TPP;FULL;3 top poses;Basic+extended;3cv;None;None
+IBk (k=3);;0.9055202222222224;;TPP;FULL;3 top poses;Basic+extended;3cv;None;None
+IBk (k=5);;0.8990957777777778;;TPP;FULL;3 top poses;Basic+extended;3cv;None;None
+K*;;0.9390354444444444;;TPP;FULL;3 top poses;Basic+extended;3cv;None;None
+Decision Table;;0.5;;TPP;FULL;3 top poses;Basic+extended;3cv;None;None
+J48;;0.6964195555555556;;TPP;FULL;3 top poses;Basic+extended;3cv;None;None
+Random Tree;;0.5628409999999999;;TPP;FULL;3 top poses;Basic+extended;3cv;None;None
+Naive Bayes;;0.5;;Adenine;FULL;3 top poses;Basic+extended;3cv;None;None
+Logistic Regression;;0.9832287777777778;;Adenine;FULL;3 top poses;Basic+extended;3cv;None;None
+IBk (k=3);;0.9909991111111112;;Adenine;FULL;3 top poses;Basic+extended;3cv;None;None
+IBk (k=5);;0.991380888888889;;Adenine;FULL;3 top poses;Basic+extended;3cv;None;None
+K*;;0.9907636666666666;;Adenine;FULL;3 top poses;Basic+extended;3cv;None;None
+Decision Table;;0.5;;Adenine;FULL;3 top poses;Basic+extended;3cv;None;None
+J48;;0.8036456666666667;;Adenine;FULL;3 top poses;Basic+extended;3cv;None;None
+Random Tree;;0.6328972222222222;;Adenine;FULL;3 top poses;Basic+extended;3cv;None;None
+Naive Bayes;;0.5;;Guanine;FULL;3 top poses;Basic+extended;3cv;None;None
+Logistic Regression;;0.8853653333333333;;Guanine;FULL;3 top poses;Basic+extended;3cv;None;None
+IBk (k=3);;0.9192341111111112;;Guanine;FULL;3 top poses;Basic+extended;3cv;None;None
+IBk (k=5);;0.924645;;Guanine;FULL;3 top poses;Basic+extended;3cv;None;None
+K*;;0.924097222222222;;Guanine;FULL;3 top poses;Basic+extended;3cv;None;None
+Decision Table;;0.5;;Guanine;FULL;3 top poses;Basic+extended;3cv;None;None
+J48;;0.6121301111111112;;Guanine;FULL;3 top poses;Basic+extended;3cv;None;None
+Random Tree;;0.6770417777777777;;Guanine;FULL;3 top poses;Basic+extended;3cv;None;None
+Naive Bayes;;0.5;;GuanineC74U;FULL;3 top poses;Basic+extended;3cv;None;None
+Logistic Regression;;0.9832162222222222;;GuanineC74U;FULL;3 top poses;Basic+extended;3cv;None;None
+IBk (k=3);;0.9921822222222222;;GuanineC74U;FULL;3 top poses;Basic+extended;3cv;None;None
+IBk (k=5);;0.9925222222222222;;GuanineC74U;FULL;3 top poses;Basic+extended;3cv;None;None
+K*;;0.971929222222222;;GuanineC74U;FULL;3 top poses;Basic+extended;3cv;None;None
+Decision Table;;0.5;;GuanineC74U;FULL;3 top poses;Basic+extended;3cv;None;None
+J48;;0.829946111111111;;GuanineC74U;FULL;3 top poses;Basic+extended;3cv;None;None
+Random Tree;;0.8072901111111112;;GuanineC74U;FULL;3 top poses;Basic+extended;3cv;None;None
+Deep Learning;;0.9273777777777776;;FMN;FULL;3 top poses;Basic+extended;3cv;None;None
+Deep Learning;;0.992876929165018;;Adenine;FULL;3 top poses;Basic+extended;3cv;None;None
+Deep Learning;;0.981699779249448;;Guanine;FULL;3 top poses;Basic+extended;3cv;None;None
+Deep Learning;;0.9969861362266426;;GuanineC74U;FULL;3 top poses;Basic+extended;3cv;None;None
+Deep Learning;;0.8095850248082995;;HIV-1 TAR;FULL;3 top poses;Basic+extended;3cv;None;None
+Deep Learning;;0.9108830022075056;;TPP;FULL;3 top poses;Basic+extended;3cv;None;None
+SVM + Optuna;;0.99725;;Adenine;;;;;;
+SVM + Optuna;;0.98667;;FMN;;;;;;
+SVM + Optuna;;0.99067;;Guanine;;;;;;
+SVM + Optuna;;0.99634;;GuanineC74U;;;;;;
+SVM + Optuna;;0.78553;;HIV-1 TAR;;;;;;
+SVM + Optuna;;0.95417;;TPP;;;;;;

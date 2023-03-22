@@ -1,0 +1,7 @@
+"target","AUROC","Fingerprint type","poses","interactions","cvtype","preprocessing","postprocessing","name"
+"FMN",0.9273777777777777,"FULL","3 top poses","Basic+extended","3cv","None","None","Deep Learning"
+"Adenine",0.9928769291650179,"FULL","3 top poses","Basic+extended","3cv","None","None","Deep Learning"
+"Guanine",0.9816997792494481,"FULL","3 top poses","Basic+extended","3cv","None","None","Deep Learning"
+"GuanineC74U",0.9969861362266426,"FULL","3 top poses","Basic+extended","3cv","None","None","Deep Learning"
+"HIV-1 TAR",0.8095850248082995,"FULL","3 top poses","Basic+extended","3cv","None","None","Deep Learning"
+"TPP",0.9108830022075055,"FULL","3 top poses","Basic+extended","3cv","None","None","Deep Learning"
