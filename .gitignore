@@ -127,3 +127,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+data/4-SIFts+activity-csv/bin/copy.sh
+temp/FMN-withZeros_allInteractions.csv
