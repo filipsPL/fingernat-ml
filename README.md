@@ -13,6 +13,10 @@ Data accompanying the manuscript on SIFts- and ML-based methods in Virtual Scree
   - [2-docking\_poses](#2-docking_poses)
   - [3-rescoring](#3-rescoring)
   - [4-SIFts+activity](#4-siftsactivity)
+  - [4-SIFts+activity-arff](#4-siftsactivity-arff)
+  - [4-SIFts+activity-csv](#4-siftsactivity-csv)
+  - [5-results](#5-results)
+  - [6-HIV-structures](#6-hiv-structures)
 - [Feedback, issues, and questions](#feedback-issues-and-questions)
 - [How to cite](#how-to-cite)
 - [Funding](#funding)
@@ -169,6 +173,26 @@ Each joined SIFts is available in six variants:
 │   │           ├── withZeros_basicInteractions.csv.gz
 │   │           └── withZeros_basicInteractionsNoLipo.csv.gz
 ```
+
+## 4-SIFts+activity-arff
+
+Data formatted for [Weka](https://www.cs.waikato.ac.nz/~ml/weka/) (average for 3 best poses, 3 structures, with zeros, all interactions).
+
+## 4-SIFts+activity-csv
+
+Auxiliary csv files (average for 3 best poses, 3 structures, with zeros, all interactions).
+
+## 5-results
+
+Raw and compiled ML results. All results are combined in `_collected_ml_results.csv`.
+
+## 6-HIV-structures
+
+Data for SIFts composed from seven RNA structures, to investigate the influence of number of structures on the ML accuracy. Raw data, results, and figures.
+
+![fig](data/6-HIV-structures/S1-B+C.png)
+
+
 
 # Feedback, issues, and questions
 
