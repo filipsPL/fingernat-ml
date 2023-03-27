@@ -7,6 +7,7 @@ Data accompanying the manuscript on SIFts- and ML-based methods in Virtual Scree
 [![cffconvert](https://github.com/filipsPL/fingernat-ml/actions/workflows/cffconvert.yml/badge.svg)](https://github.com/filipsPL/fingernat-ml/actions/workflows/cffconvert.yml) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7486184.svg)](https://doi.org/10.5281/zenodo.7486184) <!-- markdown-link-check-disable-line -->
 
 - [Repository content](#repository-content)
+  - [Quick start 🚀](#quick-start-)
   - [0-activity\_datasets](#0-activity_datasets)
   - [1-rna\_targets](#1-rna_targets)
   - [1-rna\_targets-dockprep](#1-rna_targets-dockprep)
@@ -24,6 +25,11 @@ Data accompanying the manuscript on SIFts- and ML-based methods in Virtual Scree
 # Repository content
 
 All data reside in the `data` directory.
+
+## Quick start 🚀
+
+CSV files with fingerprints and the binding/activity class (0 = non-binder, 1=binder) are stored in [data/4-SIFts%2Bactivity-csv](data/4-SIFts%2Bactivity-csv/).
+
 
 ## 0-activity_datasets
 
